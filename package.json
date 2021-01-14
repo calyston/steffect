@@ -6,8 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calyston/steffect.git"
+  },
   "author": "Christine Lyston",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calyston/steffect/issues"
+  },
+  "homepage": "https://github.com/calyston/steffect#readme",
   "devDependencies": {
     "browser-sync": "^2.26.13",
     "gulp": "^4.0.2",

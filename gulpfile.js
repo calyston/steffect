@@ -8,7 +8,7 @@ const sass = require('gulp-sass');
 const sourcemaps = require('gulp-sourcemaps');
 const terser = require('gulp-terser');
 
-// Create basic Gulp tasks
+// // Create basic Gulp tasks
 
 gulp.task('sass', function () {
   return gulp
@@ -58,11 +58,15 @@ gulp.task('browser-sync', function () {
     './build/css/*.css',
     './build/js/*.js',
     './sass/**/*.scss',
+    './*.html',
+    './**/*.html'
   ];
 
-  browserSync.init(files, {
-    proxy: 'localhost:8888/steffect'
-  });
+  browserSync.init({
+    server: {
+      baseDir: './'
+    }
+  })
 
   gulp.watch(files).on('change', browserSync.stream);
 
@@ -71,6 +75,7 @@ gulp.task('browser-sync', function () {
 gulp.task('watch', function (done) {
   gulp.watch('js/*.js', gulp.series('scripts'));
   gulp.watch('sass/**/*.scss', gulp.series('sass'));
+  gulp.watch('./*html').on('change', browserSync.reload);
   done()
 });
 

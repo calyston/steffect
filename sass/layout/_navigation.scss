@@ -1,1 +1,33 @@
 //Navigation
+
+nav {
+  background-color: $main-color;
+}
+
+#nav-mobile {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: $main-spacing;
+}
+
+.nav-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.search-bag svg {
+  padding-left: $main-spacing /2;
+}
+
+#logo {
+  position: absolute;
+}
+
+#nav-desktop {
+  display: none;
+}

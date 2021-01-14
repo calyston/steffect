@@ -1,1 +1,25 @@
 //Buttons
+
+//Homepage
+
+.hero-button {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: 0.5rem solid white;
+  padding: $main-spacing;
+  margin: $main-spacing;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.hero-button:hover {
+  color: $accent-color;
+  border: 0.5rem solid $accent-color;
+}
+
+svg {
+  fill: white;
+  cursor: pointer;
+}
