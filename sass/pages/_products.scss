@@ -20,7 +20,7 @@
 
 .products-grid {
   display: grid;
-  padding: $main-spacing * 2;
+  margin: $main-spacing * 2;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   gap: $main-spacing;
