@@ -8,10 +8,40 @@ footer {
   align-items: center;
 }
 
+footer img {
+  padding: $main-spacing;
+  padding-bottom: $main-spacing * 2;
+}
+
+footer p {
+  color: white;
+  cursor: default;
+}
+
 .contact-icons svg {
   padding: $main-spacing;
 }
 
-.contact-icons svg:hover {
-  fill: goldenrod;
+.contact-icons a:hover {
+  fill: $accent-color;
+}
+
+.footer-links {
+  text-transform: uppercase;
+  text-align: center;
+  padding: $main-spacing;
+}
+
+.footer-links li {
+  padding: $main-spacing 0 ;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+  transition: $main-transition;
+}
+
+.footer-links a:hover {
+  color: $accent-color;
 }

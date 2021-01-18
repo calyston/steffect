@@ -20,6 +20,14 @@ nav {
   position: relative;
 }
 
+svg {
+  transition: $main-transition;
+}
+
+svg:hover {
+  fill: $accent-color;
+}
+
 .search-bag svg {
   padding-left: $main-spacing /2;
 }

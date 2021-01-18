@@ -115,6 +115,13 @@ nav {
           justify-content: space-between;
   position: relative; }
 
+svg {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease; }
+
+svg:hover {
+  fill: goldenrod; }
+
 .search-bag svg {
   padding-left: 0.75rem; }
 
@@ -138,18 +145,43 @@ footer {
       -ms-flex-align: center;
           align-items: center; }
 
+footer img {
+  padding: 1.5rem;
+  padding-bottom: 3rem; }
+
+footer p {
+  color: white;
+  cursor: default; }
+
 .contact-icons svg {
   padding: 1.5rem; }
 
-.contact-icons svg:hover {
+.contact-icons a:hover {
   fill: goldenrod; }
+
+.footer-links {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1.5rem; }
+
+.footer-links li {
+  padding: 1.5rem 0; }
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease; }
+
+.footer-links a:hover {
+  color: goldenrod; }
 
 .hero-button {
   text-transform: uppercase;
   color: white;
   font-weight: bold;
   background-color: transparent;
-  border: 0.5rem solid white;
+  border: 0.4rem solid white;
   padding: 1.5rem;
   margin: 1.5rem;
   cursor: pointer;
@@ -157,8 +189,8 @@ footer {
   transition: 0.3s ease; }
 
 .hero-button:hover {
-  color: #DCBB94;
-  border: 0.5rem solid #DCBB94; }
+  color: goldenrod;
+  border: 0.4rem solid goldenrod; }
 
 svg {
   fill: white;
