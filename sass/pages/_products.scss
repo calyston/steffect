@@ -8,6 +8,16 @@
   padding-top: $main-spacing * 2;
 }
 
+.products-dropdown {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#product-sorter {
+  font-family: 'Raleway';
+  margin-top: $main-spacing;
+} 
+
 .products-grid {
   display: grid;
   padding: $main-spacing * 2;

@@ -196,6 +196,21 @@ svg {
   fill: white;
   cursor: pointer; }
 
+.add-to-bag {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  background-color: #613B1A;
+  border: none;
+  padding: 1.5rem;
+  margin: 1.5rem;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease; }
+
+.add-to-bag:hover {
+  background-color: goldenrod; }
+
 .hero-image {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../../assets/images/products/1.jpeg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/products/1.jpeg");
@@ -292,6 +307,18 @@ footer p {
           align-items: center;
   padding: 1.5rem;
   padding-top: 3rem; }
+
+.products-dropdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
+#product-sorter {
+  font-family: 'Raleway';
+  margin-top: 1.5rem; }
 
 .products-grid {
   display: grid;
