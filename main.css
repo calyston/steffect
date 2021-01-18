@@ -278,3 +278,42 @@ footer p {
 
 .hamburger-links a:hover {
   color: goldenrod; }
+
+.products-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.5rem;
+  padding-top: 3rem; }
+
+.products-grid {
+  display: grid;
+  padding: 3rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 1.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.grid-product {
+  text-align: center; }
+
+.grid-product img {
+  width: 15rem;
+  height: 15rem;
+  padding-bottom: 0.75rem; }
+
+.grid-product p {
+  padding: 0.75rem 0; }
+
+.grid-product-name {
+  font-weight: bold;
+  text-transform: uppercase; }

@@ -1,1 +1,37 @@
 //Products Page
+
+.products-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: $main-spacing;
+  padding-top: $main-spacing * 2;
+}
+
+.products-grid {
+  display: grid;
+  padding: $main-spacing * 2;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: $main-spacing;
+  align-items: center;
+}
+
+.grid-product {
+  text-align: center;
+}
+
+.grid-product img {
+  width: 15rem;
+  height: 15rem;
+  padding-bottom: $main-spacing / 2;
+}
+
+.grid-product p {
+  padding: ($main-spacing / 2) 0;
+}
+
+.grid-product-name {
+  font-weight: bold;
+  text-transform: uppercase;
+}
