@@ -148,9 +148,12 @@ svg:hover {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 1.5rem; }
+    padding: 1.5rem 3rem;
+    padding-top: 3rem; }
   #nav-mobile {
     display: none; }
+  .search-bag svg {
+    padding-left: 1.5rem; }
   .nav-buttons {
     width: 100%;
     display: -webkit-box;
@@ -181,7 +184,7 @@ svg:hover {
     color: white;
     -webkit-transition: 0.3s ease;
     transition: 0.3s ease; }
-  .hamburger-links a:hover {
+  .home-navlinks a:hover {
     color: goldenrod; } }
 
 footer {
@@ -229,13 +232,38 @@ footer p {
 .footer-links a:hover {
   color: goldenrod; }
 
+@media screen and (min-width: 600px) {
+  .footer-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 1.5rem; }
+  .footer-links li {
+    padding: 0 1.5rem; }
+  .footer-links a {
+    text-decoration: none;
+    color: white;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease; }
+  .footer-links a:hover {
+    color: goldenrod; }
+  footer p {
+    margin-top: 1.5rem; } }
+
 .hero-button {
   text-transform: uppercase;
   color: white;
   font-weight: bold;
   background-color: transparent;
   border: 0.4rem solid white;
-  padding: 1.5rem;
+  padding: 0.75rem 1.5rem;
   margin: 1.5rem;
   cursor: pointer;
   -webkit-transition: 0.3s ease;
@@ -255,7 +283,7 @@ svg {
   font-weight: bold;
   background-color: #613B1A;
   border: none;
-  padding: 1.5rem;
+  padding: 0.75rem 1.5rem;
   margin: 1.5rem;
   cursor: pointer;
   -webkit-transition: 0.3s ease;
@@ -420,3 +448,59 @@ footer p {
 .grid-product-name {
   font-weight: bold;
   text-transform: uppercase; }
+
+@media screen and (min-width: 540px) {
+  .products-grid {
+    display: grid;
+    margin: 3rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 3rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .grid-product img {
+    width: 15rem;
+    height: 15rem;
+    padding-bottom: 0.75rem; } }
+
+@media screen and (min-width: 600px) {
+  .grid-product img {
+    width: 17rem;
+    height: 17rem; } }
+
+@media screen and (min-width: 768px) {
+  .grid-product img {
+    width: 20rem;
+    height: 20rem;
+    padding-bottom: 0.75rem; } }
+
+@media screen and (min-width: 1024px) {
+  .products-grid {
+    display: grid;
+    margin: 3rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 3rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .grid-product img {
+    width: 20rem;
+    height: 20rem;
+    padding-bottom: 0.75rem; } }
+
+@media screen and (min-width: 1240px) {
+  .products-grid {
+    display: grid;
+    margin: 3rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 4.5rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .grid-product img {
+    width: 25rem;
+    height: 25rem;
+    padding-bottom: 0.75rem; } }

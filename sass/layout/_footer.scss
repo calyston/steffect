@@ -45,3 +45,36 @@ footer p {
 .footer-links a:hover {
   color: $accent-color;
 }
+
+// Tablet & Desktop View
+
+@media screen and (min-width: 600px) {
+
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    text-align: center;
+    padding: $main-spacing;
+    margin: $main-spacing;
+  }
+  
+  .footer-links li {
+    padding: 0 $main-spacing ;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: white;
+    transition: $main-transition;
+  }
+  
+  .footer-links a:hover {
+    color: $accent-color;
+  }
+
+  footer p {
+    margin-top: $main-spacing;
+  }
+
+}

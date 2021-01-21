@@ -8,7 +8,7 @@
   font-weight: bold;
   background-color: transparent;
   border: 0.4rem solid white;
-  padding: $main-spacing;
+  padding: ($main-spacing / 2) $main-spacing;
   margin: $main-spacing;
   cursor: pointer;
   transition: 0.3s ease;
@@ -32,7 +32,7 @@ svg {
   font-weight: bold;
   background-color: $main-color;
   border: none;
-  padding: $main-spacing;
+  padding: ($main-spacing / 2) $main-spacing;
   margin: $main-spacing;
   cursor: pointer;
   transition: 0.3s ease;
