@@ -424,9 +424,21 @@ footer p {
   font-family: 'Raleway';
   margin-top: 1.5rem; }
 
+.all-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
 .products-grid {
   display: grid;
-  margin: 3rem;
+  margin: 3rem 0;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   gap: 1.5rem;
@@ -452,7 +464,7 @@ footer p {
 @media screen and (min-width: 540px) {
   .products-grid {
     display: grid;
-    margin: 3rem;
+    margin: 3rem 0;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     gap: 3rem;
@@ -478,7 +490,7 @@ footer p {
 @media screen and (min-width: 1024px) {
   .products-grid {
     display: grid;
-    margin: 3rem;
+    margin: 3rem 0;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     gap: 3rem;
@@ -493,7 +505,7 @@ footer p {
 @media screen and (min-width: 1240px) {
   .products-grid {
     display: grid;
-    margin: 3rem;
+    margin: 3rem 0;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     gap: 4.5rem;
