@@ -1,0 +1,27 @@
+//Homepage
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/products/1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+//Featured Products
+.featured-products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featured-products h1 {
+  font-size: 32px;
+  text-align: center;
+  padding: ($main-spacing * 2) 0;
+}
