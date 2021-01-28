@@ -1,5 +1,17 @@
 //Products Page
 
+#loading-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loading-spinner {
+  width: 5rem;
+  padding: $main-spacing * 2;
+}
+
 .products-page {
   display: flex;
   flex-direction: column;
@@ -15,9 +27,10 @@
 
 #product-sorter {
   font-family: 'Raleway';
-  margin-top: $main-spacing;
 } 
+
 .all-grid {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
