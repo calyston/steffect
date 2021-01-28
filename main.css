@@ -293,6 +293,9 @@ svg {
 .add-to-bag:hover {
   background-color: goldenrod; }
 
+main {
+  height: 80vh; }
+
 .hero-image {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../../assets/images/products/1.jpeg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/products/1.jpeg");
@@ -397,7 +400,12 @@ footer p {
   margin: 1.5rem; }
 
 .about-img {
-  width: 30rem; }
+  width: 30rem;
+  margin: 1.5rem; }
+
+@media screen and (min-width: 1240px) {
+  .about-page p {
+    width: 75vw; } }
 
 #loading-container {
   width: 100%;
@@ -562,4 +570,33 @@ footer p {
 
 @media screen and (min-width: 1240px) {
   .shipping-page p {
+    width: 75vw; } }
+
+.faq-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+
+.faq-page h1 {
+  text-align: center;
+  padding: 1.5rem; }
+
+.faq-page p {
+  margin: 1.5rem; }
+
+.faq-page li {
+  list-style-type: disc; }
+
+@media screen and (min-width: 1240px) {
+  .faq-page p {
     width: 75vw; } }

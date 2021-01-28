@@ -18,4 +18,13 @@
 
 .about-img {
   width: 30rem;
+  margin: $main-spacing;
 }
+
+  // Desktop View
+
+  @media screen and (min-width: 1240px) {
+    .about-page p {
+      width: 75vw;
+    }
+  }
