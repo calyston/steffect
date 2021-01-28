@@ -293,9 +293,6 @@ svg {
 .add-to-bag:hover {
   background-color: goldenrod; }
 
-main {
-  height: 80vh; }
-
 .hero-image {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../../assets/images/products/1.jpeg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/products/1.jpeg");
@@ -396,6 +393,18 @@ footer p {
 .about-page h1 {
   padding-bottom: 1.5rem; }
 
+#aboutInfo div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
 .about-page p {
   margin: 1.5rem; }
 
@@ -446,7 +455,8 @@ footer p {
           justify-content: flex-end; }
 
 #product-sorter {
-  font-family: 'Raleway'; }
+  font-family: 'Raleway';
+  margin-top: 3rem; }
 
 .all-grid {
   width: 100%;
@@ -466,13 +476,23 @@ footer p {
   margin: 3rem 0;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  gap: 1.5rem;
+  gap: 1.5rem; }
+
+.grid-product {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-
-.grid-product {
-  text-align: center; }
 
 .grid-product img {
   width: 15rem;

@@ -12,6 +12,12 @@
   padding-bottom: $main-spacing;
 }
 
+#aboutInfo div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .about-page p {
   margin: $main-spacing;
 }
