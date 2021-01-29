@@ -83,7 +83,7 @@ h3 {
   font-family: 'BodoniFLF';
   text-transform: uppercase; }
 
-p, li {
+p, li, label {
   font-size: 1.6rem;
   font-family: 'Raleway'; }
 
@@ -442,6 +442,43 @@ footer p {
           align-items: center;
   padding: 1.5rem;
   padding-top: 3rem; }
+
+.contact-page h1 {
+  padding-bottom: 1.5rem; }
+
+.contact-page p {
+  margin: 1.5rem; }
+
+.contact-form span {
+  color: red;
+  font-weight: bold; }
+
+.name-form, .email-form, .subject-form, .message-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1.5rem; }
+
+.message-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+
+.contact-form label {
+  margin: 1.5rem 0; }
+
+.contact-form input, textarea {
+  padding: 1rem; }
 
 #loading-container {
   width: 100%;
