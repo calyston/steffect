@@ -1,1 +1,9 @@
 //Contact Page
+
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: $main-spacing;
+  padding-top: $main-spacing * 2;
+}
