@@ -83,7 +83,7 @@ h3 {
   font-family: 'BodoniFLF';
   text-transform: uppercase; }
 
-h4, p, li, label {
+h4, p, li, span, label, table {
   font-size: 1.6rem;
   font-family: 'Raleway'; }
 
@@ -612,6 +612,8 @@ footer p {
     padding-bottom: 0.75rem; } }
 
 @media screen and (min-width: 1240px) {
+  .products-page {
+    padding: 3rem; }
   .products-grid {
     display: grid;
     margin: 3rem 0;
@@ -718,6 +720,59 @@ footer p {
   .single-product-info {
     text-align: left;
     margin-left: 3rem; } }
+
+.shopping-bag-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.5rem;
+  padding-top: 3rem; }
+
+.shopping-bag-page h1 {
+  padding-bottom: 1.5rem; }
+
+.bag-contents {
+  padding: 1.5rem;
+  text-align: center; }
+
+.bag-contents th {
+  font-weight: bold;
+  padding: 0.75rem; }
+
+.bag-contents td {
+  padding: 0.75rem; }
+
+.bag-contents input {
+  width: 3rem;
+  padding: 1.5rem; }
+
+.bin {
+  fill: black; }
+
+.bag-info {
+  text-align: center; }
+
+.bag-info img {
+  width: 10rem;
+  height: 10rem; }
+
+.bag-info p {
+  padding: 0.75rem 0; }
+
+.total-price {
+  font-weight: bold;
+  border-top: 2px solid #613B1A; }
+
+@media screen and (min-width: 540px) {
+  .bag-contents th, td {
+    padding: 3rem; } }
 
 .shipping-page {
   display: -webkit-box;

@@ -127,6 +127,10 @@
 
 @media screen and (min-width: 1240px) {
 
+  .products-page {
+    padding: $main-spacing * 2;
+  }
+
   .products-grid {
     display: grid;
     margin: ($main-spacing * 2) 0;
