@@ -1,1 +1,41 @@
 //Individual Product
+
+.single-product-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: $main-spacing;
+  padding-top: $main-spacing * 2;
+}
+
+.single-product {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.single-product img {
+  width: 30rem;
+  height: 30rem;
+  padding-bottom: $main-spacing;
+}
+
+.single-product p {
+  padding: ($main-spacing / 2) 0;
+}
+
+.single-product-name {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.single-product button {
+  width: 30rem;
+}
+
+.single-product h4 {
+  font-weight: bold;
+  padding: $main-spacing 0;
+}

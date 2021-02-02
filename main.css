@@ -83,7 +83,7 @@ h3 {
   font-family: 'BodoniFLF';
   text-transform: uppercase; }
 
-p, li, label {
+h4, p, li, label {
   font-size: 1.6rem;
   font-family: 'Raleway'; }
 
@@ -625,6 +625,55 @@ footer p {
     width: 25rem;
     height: 25rem;
     padding-bottom: 0.75rem; } }
+
+.single-product-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.5rem;
+  padding-top: 3rem; }
+
+.single-product {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.single-product img {
+  width: 30rem;
+  height: 30rem;
+  padding-bottom: 1.5rem; }
+
+.single-product p {
+  padding: 0.75rem 0; }
+
+.single-product-name {
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.single-product button {
+  width: 30rem; }
+
+.single-product h4 {
+  font-weight: bold;
+  padding: 1.5rem 0; }
 
 .shipping-page {
   display: -webkit-box;
